@@ -1,0 +1,18 @@
+
+WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
+
+Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => const ListItem()),
+);
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
